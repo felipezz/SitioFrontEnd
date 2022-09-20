@@ -1,0 +1,119 @@
+body {
+    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+header {
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+    background-color: #3A5683;
+}
+nav a {
+    color: #BFDBF7;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #BFDBF7;
+    color: #3A5683;
+}
+main {
+    margin-left: 150px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-size: medium;
+}
+main p{
+    padding-right: 418px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer p{
+    padding: 5px;
+    text-align: right; 
+    background-color: #3A5683;
+    color: #BFDBF7;
+}
+.div1 {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.div1 p {
+    padding-right: 800px;
+}
+.foto1{
+    float: right;
+    padding-right: 500px;
+}
+.foto2{
+    padding-right: 120px;
+}
+main a img {
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.div2 {
+    overflow: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.div2 p {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.fotod1 {
+    float: left;
+    padding-top: 50px;
+}
+.div3 {
+    overflow: auto;
+    display: flex;
+  
+}
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fotod2 {
+    float: right;
+    padding-right: 50px;
+    
+}
+.div4 {
+    margin-right: 900px;
+   
+}
+form {
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    padding-left: 10px;      
+}
+form input {
+    width: 100%;
+}
+input[type="submit"]
+{
+	width:100%;
+    padding: 10px 10px 10px 10px;
+	border:1px solid #000;
+	display:block;
+	color:#fff;
+	background-color:#000;
+    border-radius: 5px;
+}
+
+
